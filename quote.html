@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Request a Quote | Prime Source Materials FZE</title><meta name="description" content="Submit a B2B materials enquiry to Prime Source Materials FZE.">
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap navbar">
+    <a class="brand" href="index.html" aria-label="Prime Source Materials FZE home">
+      <span class="logo-mark">PSM</span>
+      <span><span class="brand-name">Prime Source Materials</span><span class="brand-sub">FZE · UAE</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a data-page="index.html" href="index.html">Home</a></li>
+        <li><a data-page="products.html" href="products.html">Products</a></li>
+        <li><a data-page="industries.html" href="industries.html">Industries</a></li>
+        <li><a data-page="process.html" href="process.html">How We Work</a></li>
+        <li><a data-page="about.html" href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <a class="nav-cta" href="quote.html">Request a Quote</a>
+  </div>
+</header>
+<main><section class="page-hero"><div class="wrap"><div class="breadcrumb"><a href="index.html">Home</a> / Request a Quote</div><p class="eyebrow">Enquiry</p><h1>Request a quote.</h1><p>Share the information available to you. The more specific the requirement, the easier it is to evaluate the enquiry.</p></div></section>
+<section class="section"><div class="wrap quote-layout">
+  <div class="quote-info"><p class="eyebrow">B2B procurement</p><h2>Tell us what you need.</h2><p>Use the form to identify the trading category and provide your material requirement. Submission currently opens your email client using a mailto workflow, making the frontend easy to connect to a future backend or enquiry service.</p><div class="notice" style="margin-top:28px"><strong>Useful details</strong><p style="margin-top:7px;color:#66736d">Material or category · specification · quantity · destination · any relevant commercial notes.</p></div></div>
+  <div class="form-card"><form id="quote-form">
+    <div class="form-grid">
+      <div class="field"><label for="name">Name *</label><input id="name" name="name" autocomplete="name" required></div>
+      <div class="field"><label for="company">Company</label><input id="company" name="company" autocomplete="organization"></div>
+      <div class="field"><label for="email">Email *</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+      <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+      <div class="field full"><label for="category">Product / Category *</label><select id="category" name="category" required><option value="">Select a trading line…</option></select></div>
+      <div class="field"><label for="quantity">Quantity</label><input id="quantity" name="quantity" placeholder="e.g. required quantity"></div>
+      <div class="field full"><label for="message">Message *</label><textarea id="message" name="message" placeholder="Material details, specification, destination and any other relevant information…" required></textarea></div>
+    </div>
+    <button class="btn-primary" type="submit" style="margin-top:20px;cursor:pointer">Prepare Enquiry Email →</button>
+    <p class="form-note">This frontend uses your default email client. Replace the mailto address in java.js when the company's final enquiry email is confirmed.</p>
+  </form></div>
+</div></section></main>
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div><h3>Prime Source Materials FZE</h3><p>UAE-based B2B trading for industrial chemicals, polymers, packaging materials and raw materials.</p></div>
+      <div><h3>Explore</h3><ul class="footer-links"><li><a href="products.html">Trading Lines</a></li><li><a href="industries.html">Industries</a></li><li><a href="process.html">How We Work</a></li><li><a href="about.html">About PSM</a></li></ul></div>
+      <div><h3>Enquiries</h3><ul class="footer-links"><li><a href="quote.html">Request a Quote</a></li><li><a href="mailto:info@primesourcematerials.com">info@primesourcematerials.com</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year">2026</span> Prime Source Materials FZE. All rights reserved.</span><span class="footer-tag">Trusted Chemistry. Reliable Solutions.</span></div>
+  </div>
+</footer>
+<script src="java.js"></script>
+</body></html>
